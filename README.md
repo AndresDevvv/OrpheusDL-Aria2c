@@ -2,7 +2,7 @@
 
 <img src='https://svgshare.com/i/__W.svg' title='Orfi_temporary' height="150">
 
-OrpheusDL
+OrpheusDL + Aria2c
 =========
 
 A modular music archival program
@@ -41,7 +41,7 @@ Follow these steps to get a local copy of Orpheus up and running:
 ### Prerequisites
 
 * Python 3.7+ (due to the requirement of dataclasses), though Python 3.9 is highly recommended
-
+* Aria2c installed to system path. https://aria2.github.io/
 ### Installation
 
 1. Clone the repo
@@ -54,7 +54,7 @@ Follow these steps to get a local copy of Orpheus up and running:
    ```
 3. Run the program at least once, or use this command to create the settings file
    ```shell
-   python3 orpheus.py settings refresh
+   python3 orpheus.py settings refresh or python orpheus.py settings refresh
    ```
 4. Enter your credentials in `config/settings.json`
 
@@ -241,3 +241,5 @@ Project Link: [Orpheus Public GitHub Repository](https://github.com/OrfiTeam/Orp
 ## Acknowledgements
 * Chimera by Aesir - the inspiration to the project
 * [Icon modified from a freepik image](https://www.freepik.com/)
+
+Aria2c added by AndresDevvv
